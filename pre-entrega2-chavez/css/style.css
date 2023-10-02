@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 6.25rem;
+}
+.navbar bg-beige{
+    width: 5%;
+    height: 6rem;
+}
+.bg-beige{
+    background-color: rgb(95, 71, 231) ;
+}
+.navBar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navBar li a{
+    text-decoration: none;
+    font-size: 1.5625rem;
+    color: white;
+}
+
+.navBar li a:hover{
+    color: rgb(95, 71, 231);
+    text-decoration: underline;
+}
+.container-cards{
+    color: rgb(95, 71, 231);
+    text-align: center;
+    text-decoration: dashed;
+}
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.container-cards div{
+    width: 350px;
+    height: 400px;
+}
+.container-cards div:hover{
+    box-shadow: 10px 10px 10px gray ;
+}
+.container-cards div img{
+    width: 100%; 
+    height: 100%;
+    filter: grayscale(2);
+}
+.container-cards div img:hover{
+    filter: grayscale(0);
+}
+.button{
+    width: 90px;
+    height: 40px;
+    text-align: center;
+}
+
+
+button:hover{
+    background-color: rgb(121, 121, 250);
+}
+button:active{
+    background-color: aliceblue;
+}
+input:focus{
+    border-color: blue;
+    box-shadow: 2px 2px 5px red ;
+}
+
+.parrafos p:first-child{
+    color: blue;
+    font-size: 30px;
+}
+.nav-wapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 1.5rem;
+}
+nav .logo{
+    font-weight: 700;
+}
+nav ul{
+    list-style:  none;
+    display: flex;
+    gap: 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav #toggle, nav label{
+    display: none;
+}
